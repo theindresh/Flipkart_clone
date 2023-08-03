@@ -17,3 +17,15 @@ ul{
     justify-content: space-evenly;
     padding-top: 20px;
 }
+.input_search{
+    background-color: transparent;
+    border-radius: 2px;
+}
+.input_search input{
+    font-size: 30px;
+    width: 560px;
+    height: 40px;
+}
+.input_search i{
+    font-size: 30px;
+}
