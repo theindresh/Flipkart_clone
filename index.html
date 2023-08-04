@@ -8,27 +8,241 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="./Css/Style.css" />
   </head>
   <body>
+    <!-- header design -->
+
     <div id="header">
       <div class="logo">
-        <img src="./Images/logo.svg" alt="" />
-        <div class="">Flipkart Plus <i class="bi bi-plus"></i></div>
+        <img src="./Images/logo/logo.svg" alt="" /><br />
+        <span class="flipkart-plus"
+          >Flipkart <span>Plus<i class="bi bi-plus"></i></span
+        ></span>
       </div>
-      <div class="search_box">
+      <div class="header_search_box">
         <i class="bi bi-search"></i>
-        <input type="text" placeholder="Search for Product" />
+        <input type="text" placeholder="Search for Product, Brands and More" />
       </div>
-      <div class="sign_in">
-        <a href=""><i class="bi bi-person"></i>Sign in</a>
+      <div class="header_icon_link_content">
+        <a href="#"><i class="bi bi-shop-window"></i>Become a Sealler</a>
       </div>
-      <div class="become_sealler">
-        <i class="bi bi-shop-window"></i><a href="#">Become a Seler</a>
+      <div class="header_icon_link_content">
+        <a href="#"><i class="bi bi-person"></i>Sign in</a>
       </div>
-      <div class="chat">
+      <div class="header_icon_link_content">
         <a href=""><i class="bi bi-cart"></i>Chat</a>
       </div>
+    </div>
+
+    <!-- navbar design -->
+    <div id="nav">
+      <div class="nav_content">
+        <a href="http://" class="nav_content_main">
+          <div class="img">
+            <img src="./Images/nav/top offer.jpg" alt="" />
+            <div class="nav_content_main_content">
+              <span> Top Offers </span>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="nav_content">
+        <a href="http://" class="nav_content_main">
+          <div class="img">
+            <img src="./Images/nav/mobile&Tablets.jpg" alt="" />
+            <div class="nav_content_main_content">
+              <span> Mobile & Tablets </span>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="nav_content">
+        <a href="http://" class="nav_content_main">
+          <div class="img">
+            <img src="./Images/nav/electronic.jpg" alt="" />
+            <div class="nav_content_main_content">
+              <span> Electronics </span>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="nav_content">
+        <a href="http://" class="nav_content_main">
+          <div class="img">
+            <img src="./Images/nav/TVs & Application.jpg" alt="" />
+            <div class="nav_content_main_content">
+              <span> TVs & Appliances </span>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="nav_content">
+        <a href="http://" class="nav_content_main">
+          <div class="img">
+            <img src="./Images/nav/fasion.jpg" alt="" />
+            <div class="nav_content_main_content">
+              <span>Fashion</span>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="nav_content">
+        <a href="http://" class="nav_content_main">
+          <div class="img">
+            <img src="./Images/nav/beauty.jpg" alt="" />
+            <div class="nav_content_main_content">
+              <span>Beauty</span>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="nav_content">
+        <a href="http://" class="nav_content_main">
+          <div class="img">
+            <img src="./Images/nav/home & kitchen.jpg" alt="" />
+            <div class="nav_content_main_content">
+              <span> Home & Kitchen</span>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="nav_content">
+        <a href="http://" class="nav_content_main">
+          <div class="img">
+            <img src="./Images/nav/furniture.jpg" alt="" />
+            <div class="nav_content_main_content">
+              <span>Furniture</span>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="nav_content">
+        <a href="http://" class="nav_content_main">
+          <div class="img">
+            <img src="./Images/nav/flight.jpg" alt="" />
+            <div class="nav_content_main_content">
+              <span>Flight</span>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="nav_content">
+        <a href="http://" class="nav_content_main">
+          <div class="img">
+            <img src="./Images/nav/grocery.jpg" alt="" />
+            <div class="nav_content_main_content">
+              <span>Grocery</span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- Slider hero main content -->
+
+    <div id="flipkart_carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="5000">
+          <img
+            src="./Images/slider/slider1.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img
+            src="./Images/slider/slider2.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img
+            src="./Images/slider/slider3.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img
+            src="./Images/slider/slider4.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img
+            src="./Images/slider/slider5.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img
+            src="./Images/slider/slider6.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleInterval"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleInterval"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- ads design -->
+    <div id="ads">
+      <img src="./Images/ads/ads.jpg" alt="" />
+    </div>
+
+    <!-- footer design  -->
+    <div id="footer">
+        <div id="about">
+
+        </div>
+        <div id="address">
+
+        </div>
+    </div>
+
+    <!-- payment &copyright -->
+    <div id="copyright_payment">
+            <ul class="copyright_payment-content" >
+                <li><i class="bi bi-bag-heart"></i><a href="http://"> become a seller</a></li>
+                <li><i class="bi bi-badge-ad"></i><a href="http://"> Adverties</a></li>
+                <li><i class="bi bi-gift"></i><a href="http://"> Gift Cards</a></li>
+                <li><i class="bi bi-question-circle"></i><a href="http://"> Help Center</a></li>
+                <li><i class="bi bi-c-circle"></i><a href="http://">2023 techub4study </a></li>
+                <li><img src="./Images/logo/payment-method.svg" alt=""></li>
+            </ul>
     </div>
   </body>
 </html>
