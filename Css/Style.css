@@ -2,10 +2,16 @@
   margin: 0;
   padding: 0;
 }
+/* body part  */
+
 body {
   background-color: #8d8b8b88;
   /* width: 1330px; */
 }
+
+/* Header design css */
+
+
 #header {
   height: 70px;
   /* margin-left: 10px; */
@@ -66,6 +72,9 @@ body {
   font-size: 22px;
   margin-right: 4px;
 }
+ 
+
+/* navbar design  */
 
 #nav {
   width: 1330px;
@@ -100,6 +109,9 @@ body {
   font-weight: bold;
   /* text-align: center; */
 }
+
+/* ads design  */
+
 #ads {
   width: 1330px;
   height: 126px;
@@ -114,6 +126,8 @@ body {
   margin-left: 330px;
   margin-top: 30px;
 }
+/* flipkart sliders design  */
+
 #flipkart_carousel {
   width: 1330px;
   height: 200px;
@@ -123,6 +137,7 @@ body {
   margin-top: 10px;
   border-radius: 5px;
 }
+ /* main components css design  */
 #main {
   display: grid;
   grid-template-columns: 10fr 2fr;
@@ -133,12 +148,35 @@ body {
   padding: 5px;
   margin-left: 15px;
 }
+
+/* fotter css design */
 #footer {
   display: grid;
-  grid-template-columns: 6fr 6fr;
+  grid-template-columns: 7fr 5fr;
   height: 250px;
   background-color: rgb(24, 20, 20);
 }
+.box1{
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr 3fr;
+  
+}
+.box2{
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  border-left: 0.5px solid rgb(194, 194, 194);  
+}
+.content{
+  margin-top: 30px;
+  align-items: center;
+  margin-left: 30px;
+  text-align: center;
+}
+.content a{
+  color:
+}
+/* last copyright payments design css */
+
 #copyright_payment {
   bottom: 0;
   height: 60px;
