@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +7,7 @@
 
 body {
   background-color: #8d8b8b88;
+  font-family: "Roboto", sans-serif;
 }
 
 /* Header design css */
@@ -92,7 +94,6 @@ body {
 }
 
 .nav_content_main {
-
   text-decoration: none;
   text-align: center;
   margin-left: 20px;
@@ -130,7 +131,7 @@ body {
   margin-top: 10px;
   border-radius: 5px;
 }
-.images_slider img{
+.images_slider img {
   height: 222px;
   width: 1300px;
   margin: 10px 10px 10px 15px;
@@ -156,47 +157,46 @@ body {
   grid-template-columns: 9fr 3fr;
   height: 350px;
 }
-.top_offers_name{
+.top_offers_name {
   font-size: 20px;
   font-weight: bold;
   color: #212121;
   background-color: #ffffff;
- padding: 16px;
+  padding: 16px;
 }
-.top_offers_deatils{
+.top_offers_deatils {
   font-size: 14px;
   color: #333;
   background-color: #ffffff;
   margin-left: 15px;
   margin-bottom: 20px;
 }
-.offer-card{
+.offer-card {
   border: 2px solid #e0e0e0;
   width: 200px;
   height: 253px;
   border-radius: 7px;
   text-align: center;
   padding: 6px;
-  
 }
-.offer-card img{
+.offer-card img {
   width: 186px;
   height: 186px;
   padding: 4px 15px 0px 15px;
 }
-.top_offers_deatils_content{
+.top_offers_deatils_content {
   margin-left: 10px;
   display: flex;
   justify-content: space-evenly;
 }
-.top_offers_big_offer{
+.top_offers_big_offer {
   background-color: #ffffff;
   height: 350px;
   margin-left: 15px;
   margin-right: 15px;
   margin-bottom: 20px;
 }
-.top_ads_item img{
+.top_ads_item img {
   width: 270px;
   height: 330px;
   margin-left: 20px;
@@ -204,44 +204,42 @@ body {
 
 /* big_billion_sale design  */
 
-#big_billion_sale{
+#big_billion_sale {
   height: 250px;
   background-color: #ffffff;
   margin: 15px;
   display: flex;
   justify-content: space-evenly;
 }
-.bigbillion-card img{
+.bigbillion-card img {
   width: 430px;
   height: 240px;
   margin: 5px;
 }
 
 /* top products  */
-.top_products{
+.top_products {
   height: 370px;
   background-color: #ffffff;
   margin: 15px 15px 15px 15px;
 }
-.top_products_heading{
+.top_products_heading {
   font-size: 20px;
   font-weight: bold;
   color: #212121;
   background-color: #ffffff;
- padding: 16px;
+  padding: 16px;
 }
-.top_products_items{
+.top_products_items {
   margin-left: 10px;
   display: flex;
   justify-content: space-evenly;
 }
 
-
-
 /* top story directory setup  */
 #top_story_directory {
   /* width: 1330px; */
-  height: 1780px;
+  height: 1900px;
   margin: 15px;
 }
 .top_story_directory_content {
@@ -263,10 +261,9 @@ body {
   font-size: 14px;
 }
 
-.top_offers_latest_update{
+.top_offers_latest_update {
   height: 300px;
   background-color: #ffffff;
-  
 }
 
 /* fotter css design */
