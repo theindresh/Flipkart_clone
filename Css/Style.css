@@ -123,15 +123,21 @@ body {
 }
 /* flipkart sliders design  */
 
-#flipkart_carousel {
-  /* width: 1330px; */
-  height: 200px;
+.carousel_slider {
+  height: 240px;
   background-color: white;
   margin-left: 15px;
   margin-right: 15px;
   margin-top: 10px;
   border-radius: 5px;
 }
+.images_slider img{
+  height: 222px;
+  width: 1300px;
+  margin: 10px 10px 10px 15px;
+  padding-right: 10px;
+}
+
 /* main components css design  */
 #main {
   display: grid;
