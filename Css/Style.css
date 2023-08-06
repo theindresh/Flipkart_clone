@@ -6,7 +6,6 @@
 
 body {
   background-color: #8d8b8b88;
-  /* width: 1330px; */
 }
 
 /* Header design css */
@@ -107,7 +106,6 @@ body {
 }
 
 /* ads design  */
-
 #ads {
   /* width: 1330px; */
   height: 126px;
@@ -213,6 +211,27 @@ body {
   height: 240px;
   margin: 5px;
 }
+
+/* top products  */
+.top_products{
+  height: 370px;
+  background-color: #ffffff;
+  margin: 15px 15px 15px 15px;
+}
+.top_products_heading{
+  font-size: 20px;
+  font-weight: bold;
+  color: #212121;
+  background-color: #ffffff;
+ padding: 16px;
+}
+.top_products_items{
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
 
 /* top story directory setup  */
 #top_story_directory {
