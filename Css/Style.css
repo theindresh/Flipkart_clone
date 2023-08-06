@@ -11,7 +11,6 @@ body {
 
 /* Header design css */
 
-
 #header {
   height: 70px;
   background-color: white;
@@ -71,7 +70,6 @@ body {
   font-size: 22px;
   margin-right: 4px;
 }
- 
 
 /* navbar design  */
 
@@ -96,9 +94,7 @@ body {
 }
 
 .nav_content_main {
-  /* display: flex;
-    justify-content: center;
-    align-items: center; */
+
   text-decoration: none;
   text-align: center;
   margin-left: 20px;
@@ -138,7 +134,7 @@ body {
   margin-top: 10px;
   border-radius: 5px;
 }
- /* main components css design  */
+/* main components css design  */
 #main {
   display: grid;
   grid-template-columns: 10fr 2fr;
@@ -148,26 +144,91 @@ body {
   margin-top: 30px;
   padding: 5px;
   margin-left: 15px;
+  margin-right: 15px;
+}
+
+/* top_offers */
+#top_offers {
+  display: grid;
+  grid-template-columns: 9fr 3fr;
+  height: 350px;
+}
+.top_offers_name{
+  font-size: 20px;
+  font-weight: bold;
+  color: #212121;
+  background-color: #ffffff;
+ padding: 16px;
+}
+.top_offers_deatils{
+  font-size: 14px;
+  color: #333;
+  background-color: #ffffff;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+.offer-card{
+  border: 2px solid #e0e0e0;
+  width: 200px;
+  height: 253px;
+  border-radius: 7px;
+  text-align: center;
+  padding: 6px;
+  
+}
+.offer-card img{
+  width: 186px;
+  height: 186px;
+  padding: 4px 15px 0px 15px;
+}
+.top_offers_deatils_content{
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.top_offers_big_offer{
+  background-color: #ffffff;
+  height: 350px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+.top_ads_item img{
+  width: 270px;
+  height: 330px;
+  margin-left: 20px;
 }
 
 /* top story directory setup  */
-
-#top_story_directory{
+#top_story_directory {
   /* width: 1330px; */
   height: 1780px;
-
+  margin-right: 15px;
+  margin-left: 15px;
 }
-.top_story_directory_content{
+.top_story_directory_content {
   font-size: 12px;
   color: #565656;
-  margin-bottom: 4px 0px; 
+  margin-bottom: 4px 0px;
+  margin-right: 15px;
+  margin-left: 15px;
 }
-.top_story_directory_content p{
-  margin-left: 10px ;
+.top_story_directory_content p {
+  margin-left: 10px;
 }
-.top_story_directory_content p span{
+.top_story_directory_content p span {
   font-size: 15px;
-   color: #565656;
+  color: #565656;
+}
+
+.top_story_directory_content h2 {
+  font-size: 14px;
+}
+
+.top_offers_latest_update{
+  height: 300px;
+  background-color: #ffffff;
+  width: ;
 }
 
 /* fotter css design */
@@ -176,51 +237,44 @@ body {
   grid-template-columns: 7fr 5fr;
   height: 250px;
   background-color: rgb(24, 20, 20);
-  
 }
 /* box1 design  */
-.box1{
+.box1 {
   display: grid;
   grid-template-columns: 3fr 3fr 3fr 3fr;
-  
 }
-
-
 
 /* box2 design  */
-.box2{
+.box2 {
   display: grid;
   grid-template-columns: 5fr 7fr;
-   
 }
-.Registered_deatiles{
+.Registered_deatiles {
   border-left: 0.5px solid rgb(194, 194, 194);
 }
-.content{
+.content {
   margin-top: 25px;
   align-items: center;
   margin-left: 20px;
 }
-.content_heading{
+.content_heading {
   color: #878787;
   text-decoration: none;
   text-align: left;
   margin-left: 0px;
   font-size: 16px;
 }
-.content ol{
+.content ol {
   list-style: none;
   font-size: 12px;
   color: #ffffff;
   padding: 10px;
   text-align: left;
 }
-.content ol p{
+.content ol p {
   margin-bottom: 2px;
   font-size: 12px;
   /* font-weight: bold; */
-
-  
 }
 
 /* last copyright payments design css */
@@ -231,23 +285,22 @@ body {
   background-color: rgb(24, 20, 20);
   border-top: 0.5px solid rgb(194, 194, 194);
 }
-.copyright_payment-content{
+.copyright_payment-content {
   display: flex;
-  justify-content: space-evenly;  
+  justify-content: space-evenly;
   margin-top: 20px;
 }
-.copyright_payment-content li{
-    list-style: none;  
-    font-weight: bold;
+.copyright_payment-content li {
+  list-style: none;
+  font-weight: bold;
 }
-.copyright_payment-content a{
-   font-size: 12px;
-   color: #ffffff;
-   text-decoration: none;
-   text-align: center;
+.copyright_payment-content a {
+  font-size: 12px;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
 }
-.copyright_payment-content li i{
-    color: rgb(230, 230, 125);  
-    padding-right: 5px;
+.copyright_payment-content li i {
+  color: rgb(230, 230, 125);
+  padding-right: 5px;
 }
-
