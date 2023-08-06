@@ -156,25 +156,50 @@ body {
   height: 250px;
   background-color: rgb(24, 20, 20);
 }
+/* box1 design  */
 .box1{
   display: grid;
   grid-template-columns: 3fr 3fr 3fr 3fr;
   
 }
+
+
+
+/* box2 design  */
 .box2{
   display: grid;
-  grid-template-columns: 6fr 6fr;
-  border-left: 0.5px solid rgb(194, 194, 194);  
+  grid-template-columns: 5fr 7fr;
+   
+}
+.Registered_deatiles{
+  border-left: 0.5px solid rgb(194, 194, 194);
 }
 .content{
-  margin-top: 30px;
+  margin-top: 25px;
   align-items: center;
-  margin-left: 30px;
-  text-align: center;
+  margin-left: 20px;
 }
-.content a{
-  color:
+.content_heading{
+  color: #878787;
+  text-decoration: none;
+  text-align: left;
+  margin-left: 0px;
+  font-size: 16px;
 }
+.content ol{
+  list-style: none;
+  font-size: 12px;
+  color: #ffffff;
+  padding: 10px;
+  text-align: left;
+}
+.content ol p{
+  margin-bottom: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  
+}
+
 /* last copyright payments design css */
 
 #copyright_payment {
@@ -190,6 +215,7 @@ body {
 }
 .copyright_payment-content li{
     list-style: none;  
+    font-weight: bold;
 }
 .copyright_payment-content a{
    font-size: 12px;
