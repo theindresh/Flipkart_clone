@@ -199,12 +199,26 @@ body {
   margin-left: 20px;
 }
 
+/* big_billion_sale design  */
+
+#big_billion_sale{
+  height: 250px;
+  background-color: #ffffff;
+  margin: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.bigbillion-card img{
+  width: 430px;
+  height: 240px;
+  margin: 5px;
+}
+
 /* top story directory setup  */
 #top_story_directory {
   /* width: 1330px; */
   height: 1780px;
-  margin-right: 15px;
-  margin-left: 15px;
+  margin: 15px;
 }
 .top_story_directory_content {
   font-size: 12px;
@@ -228,7 +242,7 @@ body {
 .top_offers_latest_update{
   height: 300px;
   background-color: #ffffff;
-  width: ;
+  
 }
 
 /* fotter css design */
