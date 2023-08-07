@@ -3,14 +3,14 @@
   margin: 0;
   padding: 0;
 }
-/* body part  */
+
 
 body {
   background-color: #8d8b8b88;
   font-family: "Roboto", sans-serif;
 }
 
-/* Header design css */
+
 
 #header {
   height: 70px;
@@ -74,7 +74,7 @@ body {
 /* navbar design  */
 
 #nav {
-  /* width: 1330px; */
+
   height: 126px;
   background-color: white;
   display: flex;
@@ -102,19 +102,19 @@ body {
   font-size: 15px;
   color: #333;
   font-weight: bold;
-  /* text-align: center; */
+
 }
 
 /* ads design  */
 #ads {
-  /* width: 1330px; */
+
   height: 126px;
   background-color: white;
   margin-left: 15px;
   margin-right: 15px;
   margin-top: 30px;
   border-radius: 5px;
-  /* padding-top: 25px; */
+
   margin-bottom: 15px;
 }
 #ads img {
